@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Counter</title>
+</head>
+<body>
+	<h1>COUNTER</h1>
+		<p>{{session['number']}} Times</p>
+		<form action="/increment" method="post">	
+			<button>ADD 2 </button>
+		</form>
+
+		<form action="/reset" method="post">	
+			<button>RESET</button>
+		</form>
+
+	
+</body>
+</html>
